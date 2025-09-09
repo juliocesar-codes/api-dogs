@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242424;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    margin: 5px;
+}
+
+header input{
+    height: 50%;
+    width: 90%;
+    font-size: 18px;
+}
+
+header button{
+    height: 50%;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+main img{
+    height: 400px;
+    padding: 5px;
+}
