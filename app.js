@@ -11,7 +11,7 @@
 async function criarImagem(){
     
     const main = document.getElementById('main')
-    main.innerHTML = ''
+    main.textContent = ''
     const raca = document.getElementById('racaInput').value
 
     const fotos = await buscarImagens(raca)
